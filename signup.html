@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+        <section>
+                <div class="container d-flex justify-content-center">
+                  <div class="system mt-5">
+                    <h1 class="text-center mb-3">Smart Login System</h1>
+                    <div class="input">
+                      <div class="mb-3 ">
+                        <input
+                        type="text"
+                        class="form-control"
+                        
+                        placeholder="Enter Your Name"
+                        id="text"
+                      />
+                        <input
+                          type="email"
+                          class="form-control"
+                          
+                          placeholder="Enter Your Email"
+                          id="email"
+                        />
+                        <input
+                          type="password"
+                          class="form-control "
+                          
+                          placeholder="Enter Your password"
+                          id="password"
+                        />
+                        <p id="incorrect" class="d-none">
+                          <span class="p-2 text-danger ">incorrect email or password</span>
+                        </p>
+                        <div class="login">
+                          <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-1 " onclick="signUp()">
+                                Sign Up
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+          <div class="text text-center">
+            <p class="text-light mb-5">You have an account?  <a href="login.html" class="text-light text-decoration-none ">Sign In</a> </p>
+          </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+          
+              <script src="js/signup.js"></script>
+         
+</body>
+</html>

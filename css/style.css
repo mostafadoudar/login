@@ -1,0 +1,100 @@
+section
+{
+        background-color: #24353F;
+        height: 100vh;
+       
+}
+section .system
+{
+
+        width: 65%;
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+section .system h1
+{
+        color: #17a2b8;
+        margin-top: 35px;
+}
+section .system input
+{
+width: 90%;
+margin: 20px auto;
+transition: 0.5s;
+
+}
+section .system input:focus
+{
+        outline: none;
+           border-color: #17a2b8;
+           box-shadow: none;
+}
+.form-control 
+{
+        background-color: transparent;
+        color: white;
+}
+.form-control:focus 
+{
+        background-color: transparent;
+
+      } 
+section .system .login 
+{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+}
+section .system .login button
+{
+        width: 100%;
+        margin-top: 18px;
+}
+
+.btn-primary 
+{
+        background-color: transparent;
+        color: #17a2b8;
+        border-color: #17a2b8;
+}
+.btn-primary:hover 
+{
+        color: white;
+        background-color: #17a2b8;
+} 
+
+.text a:hover 
+{
+        text-decoration: underline; 
+}
+section .container .system p 
+{
+        text-align: center;
+}
+
+section nav 
+{
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+        background-color: #24353F;
+        color: white;
+}
+
+section #hello 
+{
+height: 90vh;
+     
+}
+section #hello .welcome 
+{
+       
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+        height: 150px;
+}
+section #hello .welcome h1
+{
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #17a2b8;
+        }
